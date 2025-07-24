@@ -1,0 +1,36 @@
+.article-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  font-family: "Microsoft JhengHei", "Helvetica Neue", sans-serif;
+  line-height: 1.8;
+  color: #333;
+}
+
+.article-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.article-author {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.article-date {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.article-content {
+  font-size: 18px;
+  white-space: pre-wrap; /* 保留換行與段落格式 */
+}

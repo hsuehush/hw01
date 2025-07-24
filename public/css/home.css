@@ -1,0 +1,35 @@
+.home-articles {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.article-preview {
+  text-align: center;
+}
+
+.article-preview img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-info {
+  margin-top: 10px;
+}
+
+.article-info button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.article-info button:hover {
+  background-color: #555;
+}

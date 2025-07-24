@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/css/articles.css">
+
+<h2 class="article-title">==文章列表==</h2>
+
+<div class="articles-container">
+  {{#each articles}}
+    <div class="article-card">
+      <div class="article-image">
+        <img src="{{this.image}}" alt="{{this.title}}" />
+      </div>
+      <div class="article-content">
+        <h3>{{this.title}}</h3>
+        <p><strong>{{this.author}}</strong></p>
+        <p>{{this.date}}</p>
+        <p>{{this.summary}}</p>
+        <a class="read-more-btn" href="/articles/{{this.id}}">查看全文</a>
+      </div>
+    </div>
+  {{/each}}
+</div>
